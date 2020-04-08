@@ -15,16 +15,25 @@ h1
     color: snow;
     font-size: 4em;
 }
+h2
+{
+    background: #8360c3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2ebf91, #8360c3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2ebf91, #8360c3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 1em;
+    text-align: center;
+    color: snow;
+    font-size: 4em;
+}
 button
 {
     margin: 20px;
     border-radius: 20px; 
-    box-shadow: blanchedalmond;
     position: relative;
     color: black;
     background-color: white;
     font-size: 2em;
-    padding-bottom:;
+
 }
 a
 {
@@ -36,9 +45,33 @@ a
     text-align: center;
     
 }
+div
+{
+    text-align: center;
+    margin-top: 5%;
+    
+}
+.exit
+{
+    border: #b21f1f;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #d43636;
+}
+.formulario
+{
+    margin: 15px;
+    padding: 15px;
+    border-radius: 20px;
+}
 @media screen and (min-width:200px) and (max-width:780px )
 {
     h1 
+    {
+        font-size:1.5em;
+    }
+    h2 
     {
         font-size:1.5em;
     }
@@ -46,14 +79,8 @@ a
     {
         color: black;
         font-size: 1em;
-       
         padding: 10px;
-        position: relative;
-        
-    }
-    .links
-    {
-        
+        position: relative;   
     }
 
 }

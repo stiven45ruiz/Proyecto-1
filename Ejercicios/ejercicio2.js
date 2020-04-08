@@ -1,20 +1,42 @@
-var quehacer = prompt("Que quieres hacer? 1 sumar. 2 restar. 3 Multipliar. 4 Dividir");
-var n1 = parseInt(prompt("Numero 1"));
-var n2 = parseInt(prompt("Numero 2"));
 
-if (quehacer == 1)
+
+
+
+
+var n1 = parseInt(document.getElementById("numero1").value ) ;
+var n2 = parseInt(document.getElementById("numero2").value ) ;
+
+
+function suma()
 {
-    alert(n1 + n2);
+    if (suma)
+    {
+        alert(n1 + n2);
+    }
+
 }
-else if (quehacer == 2)
+ function resta()
 {
-    alert(n1 - n2);
-}
-else if (quehacer == 3)
+    if (resta)
+    {
+      alert(n1 - n2);
+    }
+} 
+function multiplica()
 {
-    alert(n1 * n2);
+    if (multiplica)
+    {
+        alert(n1 * n2);
+    }
 }
-else if (quehacer == 4)
+function divide()
 {
-    alert(n1 / n2);
+    if (divide)
+    {
+        alert(n1 / n2);
+    }
 }
+
+
+
+
