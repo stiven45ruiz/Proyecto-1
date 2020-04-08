@@ -1,0 +1,59 @@
+body
+{
+    font-family: sans-serif;
+    background: #1a2a6c;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fdbb2d, #b21f1f, #1a2a6c);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fdbb2d, #b21f1f, #1a2a6c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+h1
+{
+    background: #8360c3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2ebf91, #8360c3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2ebf91, #8360c3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 1em;
+    text-align: center;
+    color: snow;
+    font-size: 4em;
+}
+button
+{
+    margin: 20px;
+    border-radius: 20px; 
+    box-shadow: blanchedalmond;
+    position: relative;
+    color: black;
+    background-color: white;
+    font-size: 2em;
+    padding-bottom:;
+}
+a
+{
+    text-decoration: none;
+    
+}
+.links
+{
+    text-align: center;
+    
+}
+@media screen and (min-width:200px) and (max-width:780px )
+{
+    h1 
+    {
+        font-size:1.5em;
+    }
+    button 
+    {
+        color: black;
+        font-size: 1em;
+       
+        padding: 10px;
+        position: relative;
+        
+    }
+    .links
+    {
+        
+    }
+
+}
