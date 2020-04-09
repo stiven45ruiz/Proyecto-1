@@ -3,11 +3,15 @@ function resibir()
 {
    var numero = document.getElementById("inputnumero").value;
    
-   if (numero%2 == 0) 
+   if (numero % 2 == 0) 
    {
       alert(numero + " Es Par"); 
    }
-   else(alert(numero + " Es Impar" ));
+   else
+   {
+      alert(numero + " Es Impar" );
+   }
+     
 } 
    
     

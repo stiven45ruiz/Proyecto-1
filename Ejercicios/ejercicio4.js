@@ -1,15 +1,24 @@
-var adivina = parseInt(prompt("Adivian el numero"));
-var numero = parseInt(prompt("Que numero es??"));
+var adivina = parseInt(prompt("Numero que quieres que adivinen"));
 
-if (numero < adivina)
+function listo ()
 {
-    document.write("Pista: El numero es mayor!");
+    var numero = parseInt(document.getElementById("numeroAdiv").value);
+    if (numero == adivina)
+    {
+        document.write( "¡GENIAL! lo adivinaste");
+    }
+    else if (numero > adivina) 
+    {
+        alert("Pista: El numero es menor!");     
+    }
+    else if (numero < adivina)
+    {
+        alert("Pista: El numero es mayor!");     
+    }
+    else
+    {
+        alert("Eso no es un numero");
+    }  
+
 }
-else if (numero > adivina) 
-{
-    document.write("Pista: El numero es menor!");
-}
-else
-{
-    document.write("Eso no es un numero");
-}
+    
