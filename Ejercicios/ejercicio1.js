@@ -1,5 +1,5 @@
 
-function resibir()
+function recibir()
 {
    var numero = document.getElementById("inputnumero").value;
    
