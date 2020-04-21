@@ -1,36 +1,21 @@
 var n1 = parseInt(document.getElementById("numero1").value ) ;
 var n2 = parseInt(document.getElementById("numero2").value ) ;
 
+switch (formulario)
+{
+    case "suma": alert(n1 + n2);
+    break;
 
-function suma()
-{
-    if (suma)
-    {
-        alert(n1 + n2);
-    }
+    case "resta": alert(n1 - n2);
+    break;
 
-}
- function resta()
-{
-    if (resta)
-    {
-      alert(n1 - n2);
-    }
-} 
-function multiplica()
-{
-    if (multiplica)
-    {
-        alert(n1 * n2);
-    }
-}
-function divide()
-{
-    if (divide)
-    {
-        alert(n1 / n2);
-    }
-}
+    case "multiplica": alert(n1 * n2);
+    break;
+    
+    case "divide": alert(n1 / n2);
+    break;
+    default:
+}    
 
 
 

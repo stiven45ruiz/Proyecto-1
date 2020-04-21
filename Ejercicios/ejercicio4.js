@@ -1,23 +1,23 @@
-var adivina = parseInt(prompt("Numero que quieres que adivinen"));
-
+const adivina = Math.random();
+const resultado = document.getElementById("resultado")
 function listo ()
 {
     var numero = parseInt(document.getElementById("numeroAdiv").value);
-    if (numero == adivina)
+    if (numero ==  Math.round(adivina * 100))
     {
-        document.write( "¡GENIAL! lo adivinaste");
+        resultado.innerHTML = ("¡GENIAL! lo adivinaste");
     }
-    else if (numero > adivina) 
+    else if (numero > Math.round(adivina * 100)) 
     {
-        alert("Pista: El numero es menor!");     
+        resultado.innerHTML = ("Pista: El numero es menor!");     
     }
-    else if (numero < adivina)
+    else if (numero < Math.round(adivina * 100))
     {
-        alert("Pista: El numero es mayor!");     
+        resultado.innerHTML = ("Pista: El numero es mayor!");     
     }
     else
     {
-        alert("Eso no es un numero");
+        resultado.innerHTML = ("Eso no es un numero");
     }  
 
 }
