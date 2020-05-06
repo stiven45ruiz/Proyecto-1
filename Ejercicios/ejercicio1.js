@@ -1,15 +1,16 @@
+const resultado = document.getElementById("resultado");
 
 function recibir()
 {
    var numero = document.getElementById("inputnumero").value;
-   
+
    if (numero % 2 == 0) 
    {
-      alert(numero + " Es Par"); 
+      resultado.innerHTML = (numero + " Es Par"); 
    }
    else
    {
-      alert(numero + " Es Impar" );
+      resultado.innerHTML = (numero + " Es Impar" );
    }
      
 } 
