@@ -13,7 +13,7 @@ h1
     padding: 1em;
     text-align: center;
     color: snow;
-    font-size: 4em;
+    font-size: 2em;
 }
 h2
 {
@@ -23,7 +23,7 @@ h2
     padding: 1em;
     text-align: center;
     color: snow;
-    font-size: 4em;
+    font-size: 2em;
 }
 
 button
@@ -37,10 +37,15 @@ button
     font-size: 2em;
 
 }
+p
+{
+    color: white;
+}
 a
 {
     text-decoration: none;
     color: gray;
+    
 }
 #numeroAdiv
 {
@@ -65,8 +70,9 @@ a
 }
 .links
 {
-    text-align: center;
-    
+    display: flex;
+    flex-direction: row;
+  
 }
 div
 {
@@ -76,6 +82,9 @@ div
 }
 .exit
 {
+    display: flex;
+    justify-content: left;
+    text-align: left;
     border: #b21f1f;
     border-radius: 20px;
     margin: 10px;
@@ -104,6 +113,10 @@ div
         font-size: 1em;
         padding: 10px;
         position: relative;   
+    }
+    .links
+    {
+    flex-direction: column;  
     }
 
 }
