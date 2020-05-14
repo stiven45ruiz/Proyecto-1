@@ -91,6 +91,18 @@ div
     padding: 10px;
     background-color: #d43636;
 }
+.calculadora
+{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+.ope
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 .formulario
 {
     margin: 15px;

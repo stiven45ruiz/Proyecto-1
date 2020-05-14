@@ -10,20 +10,21 @@
     <h2>Calculadora</h2>
     <button class="exit"><a href="../index.html">X</a>
     </button>
-    
-    <div>
-        <input class="formulario" type="number" name="numero1" id="numero1">
-        <p id="accion"></p>
-        <input class="formulario" type="number" name="numero2" id="numero2">
+    <div class="calculadora"> 
+        <div class="inputs">
+            <input class="formulario" type="number" name="numero1" id="numero1">
+            <p id="accion"></p>
+            <input class="formulario" type="number" name="numero2" id="numero2">
+            <p id="respuesta"></p>
+        </div>
+        <div class="ope">
+            <input class="formulario" type="button" id="operacion" value="Suma" onclick="suma();">
+            <input class="formulario" type="button" id="operacion" value="Resta" onclick="resta();">
+            <input class="formulario" type="button" id="operacion" value="Divide" onclick="divide();">
+            <input class="formulario" type="button" id="operacion" value="Multiplica" onclick="multiplica();">
+        </div>
+       
     </div>
-    <div>
-        <input class="formulario" type="button" id="operacion" value="Suma" onclick="suma();">
-        <input class="formulario" type="button" id="operacion" value="Resta" onclick="resta();">
-        <input class="formulario" type="button" id="operacion" value="Divide" onclick="divide();">
-        <input class="formulario" type="button" id="operacion" value="Multiplica" onclick="multiplica();">
-        <p id="respuesta"></p>
-    </div>
-    
 
     <script src="ejercicio2.js">
     </script>
