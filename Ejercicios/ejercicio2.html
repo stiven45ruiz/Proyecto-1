@@ -10,19 +10,22 @@
     <h2>Calculadora</h2>
     <button class="exit"><a href="../index.html">X</a>
     </button>
+    
     <div>
         <input class="formulario" type="number" name="numero1" id="numero1">
+        <p id="accion"></p>
         <input class="formulario" type="number" name="numero2" id="numero2">
     </div>
     <div>
-        <input class="formulario" type="button" value="Suma" onclick="suma">
-        <input class="formulario" type="button" value="Resta" onclick="resta">
-        <input class="formulario" type="button" value="Divide" onclick="divide();">
-        <input class="formulario" type="button" value="Multiplica" onclick="multiplica();">
+        <input class="formulario" type="button" id="operacion" value="Suma" onclick="suma();">
+        <input class="formulario" type="button" id="operacion" value="Resta" onclick="resta();">
+        <input class="formulario" type="button" id="operacion" value="Divide" onclick="divide();">
+        <input class="formulario" type="button" id="operacion" value="Multiplica" onclick="multiplica();">
+        <p id="respuesta"></p>
     </div>
-   
+    
 
-    <script src="Ejercicio2.js">
+    <script src="ejercicio2.js">
     </script>
 </body>
 </html>

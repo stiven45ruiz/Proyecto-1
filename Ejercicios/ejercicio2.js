@@ -1,22 +1,29 @@
+var sm = document.getElementById("accion");
+var rs = document.getElementById("respuesta")
 var n1 = parseInt(document.getElementById("numero1").value ) ;
 var n2 = parseInt(document.getElementById("numero2").value ) ;
 
-switch (formulario)
+
+function suma ()
 {
-    case "suma": alert(n1 + n2);
-    break;
-
-    case "resta": alert(n1 - n2);
-    break;
-
-    case "multiplica": alert(n1 * n2);
-    break;
-    
-    case "divide": alert(n1 / n2);
-    break;
-    default:
+   sm.innerHTML = ("+");
+   rs.innerHTML = (n1 + n2) 
 }    
-
+function resta ()
+{
+   sm.innerHTML = ("-");
+   rs.innerHTML = (n1 - n2)
+} 
+function multiplica()
+{
+   sm.innerHTML = ("*");
+   rs.innerHTML = (n1 * n2)
+} 
+function divide ()
+{
+   sm.innerHTML = ("/");
+   rs.innerHTML = (n1 / n2)
+} 
 
 
 
