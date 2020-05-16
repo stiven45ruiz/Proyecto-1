@@ -1,5 +1,5 @@
 const adivina = Math.random();
-const resultado = document.getElementById("resultado")
+const resultado = document.getElementById("resultado");
 function listo ()
 {
     var numero = parseInt(document.getElementById("numeroAdiv").value);
